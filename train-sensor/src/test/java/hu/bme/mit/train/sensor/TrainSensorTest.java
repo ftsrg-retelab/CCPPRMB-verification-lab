@@ -12,8 +12,11 @@ public class TrainSensorTest {
         // TODO Add initializations
     }
 
-    @Test
-    public void ThisIsAnExampleTestStub() {
-        // TODO Delete this and add test cases based on the issues
-    }
+    public void shouldAlarmWhenSpeedLimitIsUnder0(){}
+
+    public void shouldAlarmWhenSpeedLimitIsOver500(){}
+
+    public void shouldAlarmWhenSlowingLargerThan50Percent(){}
+
+    public void shouldNotAlarmWhenSlowingSmallerThan50Percent(){}
 }
