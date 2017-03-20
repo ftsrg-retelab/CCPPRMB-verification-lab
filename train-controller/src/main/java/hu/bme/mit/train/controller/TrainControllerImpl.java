@@ -12,6 +12,7 @@ public class TrainControllerImpl implements TrainController {
 	private int speedLimit = 0;
 	private Timer timer = new Timer();
 	
+	@Override
 	public void startTimer(){
 		timer.scheduleAtFixedRate(new TimerTask(){
 			@Override
